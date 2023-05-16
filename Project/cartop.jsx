@@ -8,7 +8,9 @@ const Cartop = () => {
             <div className='car_top_text_h'>
                 <h3>Plan your trip now</h3>
                 <h2>
-                    Save big with our<br/>
+                    Save big with our
+                </h2>
+                <h2>
                     car rental
                 </h2>
                 <p>Rent the car of your dreams</p>

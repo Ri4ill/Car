@@ -105,8 +105,11 @@ const CarMain = () => {
             <button onClick={()=>{CarInfo(3)}} className={isActive[3] ? 'car_button_activ' : 'car_button'}>{arr[3].name}</button><br/>
             <button onClick={()=>{CarInfo(4)}}className={isActive[4] ? 'car_button_activ' : 'car_button'}>{arr[4].name}</button><br/>
             <button onClick={()=>{CarInfo(5)}} className={isActive[5] ? 'car_button_activ' : 'car_button'}>{arr[5].name}</button>
+            <div className='car_phone_but'><button>RESERVE NOW</button></div>
         </div>
+        <div className='car_photo_div'>
         <img src={carI.src} alt={carI.name} className='car_photo'/>
+        </div>
         <div className='car_info'>
             <div className='car_price'><h4>{carI.price} / rent per day</h4> </div>
             <div className='car_info_list'>
