@@ -1,6 +1,5 @@
 import React from 'react'
 import CarMain from './carMain'
-import Carfoother from './carfoother'
 import Carheader from './carheader'
 import Cartop from './cartop'
 import Carfind from './carfind'
@@ -14,7 +13,6 @@ const Car = () => {
         <Carfind/>
         <CarMain/>
         <CarAQ/>
-        <Carfoother/>
     </div>
   )
 }
